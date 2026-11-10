@@ -1,61 +1,404 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Ivan's site</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Ivan Kitanovski</title>
+  <meta name="description" content="Ivan Kitanovski is an Associate Professor at FCSE Skopje, a software architect, and a data &amp; AI specialist working on Earth observation, medical imaging and information retrieval.">
+  <meta name="author" content="Ivan Kitanovski">
+  <meta name="theme-color" content="#f2f4f1" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1613" media="(prefers-color-scheme: dark)">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Ivan Kitanovski">
-    <meta name="generator" content="Hugo 0.87.0">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Ivan Kitanovski">
+  <meta property="og:description" content="Associate Professor · Software Architect · Data &amp; AI Specialist">
+  <meta property="og:url" content="https://ivankitanovski.com/">
+  <meta property="og:image" content="https://ivankitanovski.com/img/ivan.jpg">
+  <link rel="canonical" href="https://ivankitanovski.com/">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-    <!--    <link rel="manifest" href="img/site.webmanifest">-->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
 
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="fontawesome/css/all.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+  <link rel="stylesheet" href="css/style.css">
 
+  <script>
+    try { var t = localStorage.getItem("theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+  </script>
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-    </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ivan Kitanovski",
+    "jobTitle": "Associate Professor",
+    "affiliation": {"@type": "CollegeOrUniversity", "name": "Faculty of Computer Science and Engineering, Ss. Cyril and Methodius University in Skopje"},
+    "url": "https://ivankitanovski.com/",
+    "image": "https://ivankitanovski.com/img/ivan.jpg",
+    "sameAs": [
+      "https://www.linkedin.com/in/ivan-kitanovski/",
+      "https://scholar.google.com/citations?user=hP-LYf4AAAAJ",
+      "https://github.com/ivankitanovski"
+    ]
+  }
+  </script>
 </head>
 <body>
+<a class="skip" href="#about">Skip to content</a>
 
-<div id="main">
-    <div class="container py-5">
-        <div class="row">
-            <div class="col-8">
-                <div class="container-fluid">
-                    <h1 class="display-5">Ivan Kitanovski</h1>
-                    <h3 class="mb-3">Associate  Professor @ <a href="https://finki.ukim.mk/" style="text-decoration: none;">FCSE (FINKI)</a></h3>
-                    <p class="fs-5" style="text-align: justify;font-weight: 300;">
-                        I am an associate professor and software architect. Over my career of 14+ years, I've worked on and led a wide spectrum of data-driven projects, including developing systems for NFT analytics, designing recommendation and search engines, as well as open-source projects for search and analytics.  
-                    </p>
-                    <p class="fs-5" style="text-align: justify;font-weight: 300;">
-                        My passion lies in bridging academia and industry to create products that make an impact. Genuinely love learning and sharing knowledge.
-                    </p>
-                </div>
-            </div>
-            <div class="col-4 d-flex fs-5" style="border-left: 1px solid black;flex-direction: column; flex-grow: 1; justify-content: center;">
-                <a id="resume"
-                   href="ivan_kitanovski.pdf"
-                   target="_blank">CV <i class="fas fa-download"></i></a>
-                <hr>
-                <div>
-                    <p class="text-center"><a id="mail" href="mailto:ivan.kitanovski@gmail.com">ivan.kitanovski@gmail.com</a></p>
-                    <h2 class="h2 text-center fs-2">
-                        <a href="https://www.linkedin.com/in/ivan-kitanovski/"><i class="fab fa-linkedin"></i></a> &centerdot;
-                        <a href="https://github.com/ivankitanovski"><i class="fab fa-github"></i></a> &centerdot;
-                        <a href="https://scholar.google.com/citations?hl=en&user=hP-LYf4AAAAJ"><i class="fab fa-google"></i></a>
-                    </h2>
-                </div>
-            </div>
-        </div>
+<header class="topbar">
+  <div class="wrap">
+    <a class="mark" href="#top">Ivan Kitanovski</a>
+    <div class="topbar-right">
+      <nav class="nav" aria-label="Sections">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+      </button>
     </div>
+  </div>
+</header>
 
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <div class="hero-text">
+        <p class="eyebrow">FCSE · Ss. Cyril and Methodius University · Skopje</p>
+        <h1>Ivan Kitanovski</h1>
+        <ul class="roles">
+          <li>Associate Professor</li>
+          <li>Software Architect</li>
+          <li>Data &amp; AI Specialist</li>
+        </ul>
+        <p class="lede">I build machine learning systems that work on real data, from satellite imagery and medical scans to search ranking and on-chain markets.</p>
+        <div class="links">
+          <a class="btn primary" href="ivan_kitanovski.pdf" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4M5 21h14"/></svg>
+            Download CV
+          </a>
+          <a class="btn" href="https://scholar.google.com/citations?user=hP-LYf4AAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>
+          <a class="btn" href="https://www.linkedin.com/in/ivan-kitanovski/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn" href="https://github.com/ivankitanovski" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+
+      <figure class="scene" aria-label="Illustration: a land-cover classification tile with a portrait of Ivan Kitanovski">
+        <div class="tile">
+          <canvas id="lc" width="64" height="64" aria-hidden="true"></canvas>
+          <span class="crosshair" aria-hidden="true"></span>
+          <span class="coord">41.9981° N · 21.4254° E</span>
+          <div class="portrait"><img src="img/ivan.jpg" alt="Portrait of Ivan Kitanovski" width="600" height="600"></div>
+        </div>
+        <figcaption>
+          <span class="legend-item"><i class="sw" style="background:var(--lc-water)"></i>Water</span>
+          <span class="legend-item"><i class="sw" style="background:var(--lc-forest)"></i>Forest</span>
+          <span class="legend-item"><i class="sw" style="background:var(--lc-grass)"></i>Grassland</span>
+          <span class="legend-item"><i class="sw" style="background:var(--lc-crop)"></i>Cropland</span>
+          <span class="legend-item"><i class="sw" style="background:var(--lc-urban)"></i>Built-up</span>
+          <span class="legend-item"><i class="sw" style="background:var(--lc-bare)"></i>Bare</span>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <section id="about">
+    <div class="wrap sec">
+      <div class="sec-label">About</div>
+      <div>
+        <div class="prose">
+          <h2>Researcher, teacher and engineer, usually at the same time.</h2>
+          <p>I am an Associate Professor at the Faculty of Computer Science and Engineering in Skopje, where I lead research and industry projects, lecture, and mentor students. My research sits where machine learning meets large, messy, real-world data: Earth observation and remote sensing, medical imaging and retrieval, and fairness in search.</p>
+          <p>Alongside academia I have spent more than fifteen years building production systems. At Permian Labs I single-handedly designed and built the NFT collateral analytics that backed over $60M in loan volume. I ran engineering for a retailer-to-carrier shipping platform in Amsterdam, led the recommendation and search team at Infinite Analytics, and founded two companies of my own.</p>
+          <p>I like problems that need both halves: a model that is only useful once it is wrapped in a reliable API, a pipeline, and a dashboard someone actually opens.</p>
+        </div>
+        <ul class="facts">
+          <li><b>60+</b><span>published articles</span></li>
+          <li><b>700+</b><span>citations · h-index 13</span></li>
+          <li><b>15+</b><span>years in industry</span></li>
+          <li><b>$60M+</b><span>loan volume served by my models</span></li>
+        </ul>
+        <p class="facts-note">Citation metrics from Google Scholar, November 2026.</p>
+        <ul class="tags" aria-label="Research interests">
+          <li>Earth observation</li>
+          <li>Remote sensing</li>
+          <li>Computer vision</li>
+          <li>Self-supervised &amp; few-shot learning</li>
+          <li>Medical imaging</li>
+          <li>Information retrieval</li>
+          <li>Fair ranking</li>
+          <li>Precision agriculture</li>
+          <li>Data engineering</li>
+          <li>Software architecture</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap sec">
+      <div class="sec-label">Projects</div>
+      <div>
+        <h2>Selected work</h2>
+        <div class="projects">
+          <article class="project feature">
+            <div class="meta"><i class="sw" style="background:var(--lc-forest)"></i>Research · FCSE · open source</div>
+            <h3>AiTLAS: Artificial Intelligence Toolbox for Earth Observation</h3>
+            <p>A toolbox of state-of-the-art machine learning methods for exploratory and predictive analysis of satellite imagery, with a repository of AI-ready Earth observation datasets. It covers land use and land cover classification, crop type prediction, semantic segmentation and more, and underpins an open benchmark arena for EO image classification.</p>
+            <div class="stack">Python · PyTorch · Django · Docker · <a href="https://github.com/biasvariancelabs/aitlas" target="_blank" rel="noopener">github.com/biasvariancelabs/aitlas</a></div>
+          </article>
+          <article class="project">
+            <div class="meta"><i class="sw" style="background:var(--lc-crop)"></i>Permian Labs · 2022–2025</div>
+            <h3>NFT collateral analytics for MetaStreet</h3>
+            <p>A system that gathers market data from many sources, models the collateral value of NFTs and serves the metrics over REST APIs, plus dashboards for the protocol and the wider NFT lending market. It was used to generate over $60M in loan volume.</p>
+            <div class="stack">Python · Docker · TrinoSQL · DuneSQL</div>
+          </article>
+          <article class="project">
+            <div class="meta"><i class="sw" style="background:var(--lc-water)"></i>European Commission JRC · 2020–2021</div>
+            <h3>Forest-fire social media model</h3>
+            <p>Led development of a multilingual model that detects forest-fire content in Twitter data, integrated into SMDRM, a larger system for crisis management.</p>
+            <div class="stack">Python · PyTorch · Docker</div>
+          </article>
+          <article class="project">
+            <div class="meta"><i class="sw" style="background:var(--lc-urban)"></i>TU Berlin · 2019</div>
+            <h3>FairSearch</h3>
+            <p>Open-source tools for fair ranking: FA*IR post-processing and DELTR in-processing, shipped as an Elasticsearch plugin and Java and Python libraries. Presented at The Web Conference 2020.</p>
+            <div class="stack">Java · Python · Elasticsearch</div>
+          </article>
+          <article class="project">
+            <div class="meta"><i class="sw" style="background:var(--lc-grass)"></i>Storeshippers · 2019–2024</div>
+            <h3>Retailer–carrier shipping platform</h3>
+            <p>Led the team that designed and ran a platform where retailers enter shipments and carriers are assigned automatically by business rules, with every party notified along the way.</p>
+            <div class="stack">Python · Django · PostgreSQL · AWS · React</div>
+          </article>
+          <article class="project">
+            <div class="meta"><i class="sw" style="background:var(--lc-bare)"></i>FCSE · industry projects</div>
+            <h3>Traffic and biometrics</h3>
+            <p>A camera network that measures average vehicle speed and detects violations, and a multimodal biometric authentication system combining face, fingerprint, retina and voice.</p>
+            <div class="stack">Python · Django · Docker</div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="publications">
+    <div class="wrap sec">
+      <div class="sec-label">Publications<span class="band">selected</span></div>
+      <div>
+        <h2>Selected publications</h2>
+        <ol class="pubs">
+          <li class="pub"><span class="yr">2026</span><div><a class="t" target="_blank" rel="noopener" href="https://scholar.google.com/scholar?q=%22Few-shot+remote+sensing+image+scene+classification+with+CLIP+and+prompt+learning%22"><i class="theme-chip" style="background:var(--lc-forest)"></i>Few-shot remote sensing image scene classification with CLIP and prompt learning</a><div class="a">with I. Dimitrovski, V. Spasev · <span class="v">Journal of Intelligent Information Systems</span></div></div></li>
+          <li class="pub"><span class="yr">2026</span><div><a class="t" target="_blank" rel="noopener" href="https://scholar.google.com/scholar?q=%22Agentic+AI-based+IoT+precision+agriculture+framework%22"><i class="theme-chip" style="background:var(--lc-crop)"></i>Agentic AI-based IoT precision agriculture framework: our vision and challenges</a><div class="a">with D. Davcev, S. Kalajdziski, I. Dimitrovski, K. Mitreski · <span class="v">AgriEngineering</span></div></div></li>
+          <li class="pub"><span class="yr">2026</span><div><a class="t" target="_blank" rel="noopener" href="https://scholar.google.com/scholar?q=%22Few-shot+semantic+segmentation+in+remote+sensing%22+review"><i class="theme-chip" style="background:var(--lc-forest)"></i>Few-shot semantic segmentation in remote sensing: A review on definitions, methods, datasets, advances and future trends</a><div class="a">with M. Petrov, E. Pandilova, I. Dimitrovski, D. Trajanov, V. Spasev · <span class="v">Remote Sensing</span></div></div></li>
+          <li class="pub"><span class="yr">2026</span><div><a class="t" target="_blank" rel="noopener" href="https://scholar.google.com/scholar?q=%22NeuroVLM-Bench%22"><i class="theme-chip" style="background:var(--lc-water)"></i>NeuroVLM-Bench: Evaluation of vision-enabled large language models for clinical reasoning in neurological disorders</a><div class="a">with K. Trojachanec Dineva, S. Andonov, I. Ivanoska and others · <span class="v">arXiv preprint</span></div></div></li>
+          <li class="pub"><span class="yr">2024</span><div><a class="t" target="_blank" rel="noopener" href="https://scholar.google.com/scholar?q=%22U-Net+Ensemble+for+Enhanced+Semantic+Segmentation+in+Remote+Sensing+Imagery%22"><i class="theme-chip" style="background:var(--lc-forest)"></i>U-Net ensemble for enhanced semantic segmentation in remote sensing imagery</a><div class="a">with I. Dimitrovski, V. Spasev, S. Loshkovska · <span class="v">Remote Sensing</span></div></div></li>
+          <li class="pub"><span class="yr">2024</span><div><a class="t" target="_blank" rel="noopener" href="https://scholar.google.com/scholar?q=%22In-Domain+Self-Supervised+Learning+Improves+Remote+Sensing+Image+Scene+Classification%22"><i class="theme-chip" style="background:var(--lc-forest)"></i>In-domain self-supervised learning improves remote sensing image scene classification</a><div class="a">with I. Dimitrovski, N. Simidjievski, D. Kocev · <span class="v">IEEE Geoscience and Remote Sensing Letters</span></div></div></li>
+          <li class="pub"><span class="yr">2023</span><div><a class="t" target="_blank" rel="noopener" href="https://arxiv.org/abs/2207.07189"><i class="theme-chip" style="background:var(--lc-forest)"></i>Current trends in deep learning for Earth observation: An open-source benchmark arena for image classification</a><div class="a">with I. Dimitrovski, D. Kocev, N. Simidjievski · <span class="v">ISPRS Journal of Photogrammetry and Remote Sensing</span></div></div></li>
+          <li class="pub"><span class="yr">2023</span><div><a class="t" target="_blank" rel="noopener" href="https://scholar.google.com/scholar?q=%22AiTLAS%3A+Artificial+Intelligence+Toolbox+for+Earth+Observation%22"><i class="theme-chip" style="background:var(--lc-forest)"></i>AiTLAS: Artificial Intelligence Toolbox for Earth Observation</a><div class="a">with I. Dimitrovski, P. Panov, A. Kostovska, N. Simidjievski, D. Kocev · <span class="v">Remote Sensing</span></div></div></li>
+          <li class="pub"><span class="yr">2022</span><div><a class="t" target="_blank" rel="noopener" href="https://scholar.google.com/scholar?q=%22Crop+Type+Prediction+Across+Countries+and+Years%22"><i class="theme-chip" style="background:var(--lc-crop)"></i>Crop type prediction across countries and years: Slovenia, Denmark and the Netherlands</a><div class="a">with E. Merdjanovska, Ž. Kokalj, I. Dimitrovski, D. Kocev · <span class="v">IEEE IGARSS</span></div></div></li>
+          <li class="pub"><span class="yr">2020</span><div><a class="t" target="_blank" rel="noopener" href="https://scholar.google.com/scholar?q=%22FairSearch%3A+A+Tool+For+Fairness+in+Ranked+Search+Results%22"><i class="theme-chip" style="background:var(--lc-urban)"></i>FairSearch: A tool for fairness in ranked search results</a><div class="a">with M. Zehlike, T. Sühr, C. Castillo · <span class="v">Companion Proceedings of The Web Conference 2020</span></div></div></li>
+          <li class="pub"><span class="yr">2017</span><div><a class="t" target="_blank" rel="noopener" href="https://scholar.google.com/scholar?q=%22Multimodal+medical+image+retrieval+system%22+Kitanovski"><i class="theme-chip" style="background:var(--lc-water)"></i>Multimodal medical image retrieval system</a><div class="a">with G. Strezoski, I. Dimitrovski, G. Madjarov, S. Loskovska · <span class="v">Multimedia Tools and Applications</span></div></div></li>
+          <li class="pub"><span class="yr">2015</span><div><a class="t" target="_blank" rel="noopener" href="https://scholar.google.com/scholar?q=%22Improved+medical+image+modality+classification+using+a+combination+of+visual+and+textual+features%22"><i class="theme-chip" style="background:var(--lc-water)"></i>Improved medical image modality classification using a combination of visual and textual features</a><div class="a">with I. Dimitrovski, D. Kocev, S. Loskovska, S. Džeroski · <span class="v">Computerized Medical Imaging and Graphics</span></div></div></li>
+        </ol>
+        <p class="pub-foot">
+          <i class="theme-chip" style="background:var(--lc-forest)"></i>Earth observation
+          &nbsp; <i class="theme-chip" style="background:var(--lc-crop)"></i>Agriculture
+          &nbsp; <i class="theme-chip" style="background:var(--lc-water)"></i>Medical imaging
+          &nbsp; <i class="theme-chip" style="background:var(--lc-urban)"></i>Fair search
+          <br>Full and up-to-date list on <a href="https://scholar.google.com/citations?user=hP-LYf4AAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap sec">
+      <div class="sec-label">Experience</div>
+      <div>
+        <h2>Where I've worked</h2>
+        <ol class="timeline">
+          <li class="job"><span class="when"><span class="now">2022 – now</span></span><div><div class="org">Faculty of Computer Science and Engineering, Skopje</div><div class="role">Associate Professor</div><p>Leading and participating in research and industry projects, lecturing and mentoring students. Assistant Professor 2017–2022, Research and Teaching Assistant 2011–2017.</p></div></li>
+          <li class="job"><span class="when">2022 – 2025</span><div><div class="org">Permian Labs</div><div class="role">Data Science &amp; Engineering</div><p>Sole engineer: designed and built the NFT collateral valuation system behind MetaStreet's lending protocol, which served $60M+ in loans.</p></div></li>
+          <li class="job"><span class="when">2020 – 2021</span><div><div class="org">Joint Research Centre of the European Commission, Ispra</div><div class="role">External Expert</div><p>Multilingual social media model for forest-fire crisis management.</p></div></li>
+          <li class="job"><span class="when">2019 – 2024</span><div><div class="org">Storeshippers, Amsterdam</div><div class="role">Engineering Manager / Consultant</div><p>Led design, build and operation of the retailer–carrier shipping platform.</p></div></li>
+          <li class="job"><span class="when">2019</span><div><div class="org">Technische Universität Berlin</div><div class="role">Consultant</div><p>Led development of the FairSearch fair-ranking libraries and Elasticsearch plugins.</p></div></li>
+          <li class="job"><span class="when">2013 – 2019</span><div><div class="org">Infinite Analytics</div><div class="role">Team Lead · Data Scientist</div><p>Led the Macedonia team behind the recommendation and search APIs, ETL synchronization, traffic reporting and monitoring, working with clients and teams across time zones.</p></div></li>
+          <li class="job"><span class="when">2014 – 2019</span><div><div class="org">Mindion</div><div class="role">Founder</div><p>Data science and engineering consultancy.</p></div></li>
+          <li class="job"><span class="when">2012 – 2016</span><div><div class="org">Advertisia</div><div class="role">Co-founder &amp; CTO</div><p>Cross-exchange banner network used by more than 200 websites.</p></div></li>
+          <li class="job"><span class="when">2008 – 2011</span><div><div class="org">FEEIT Skopje · Makedonski Telekom</div><div class="role">Teaching assistant · Software engineer</div><p>Early teaching and research in computer vision, and a network traffic reporting system.</p></div></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="wrap sec">
+      <div class="sec-label">Education &amp; teaching</div>
+      <div class="cols">
+        <div>
+          <div class="block">
+            <h3>Degrees</h3>
+            <ul>
+              <li>PhD, Computer Science and Engineering<small>Ss. Cyril and Methodius University · 2012–2017 · GPA 10/10</small></li>
+              <li>MSc, Software Engineering<small>Ss. Cyril and Methodius University · 2009–2012 · GPA 10/10</small></li>
+              <li>BSc, Informatics and Computer Engineering<small>Ss. Cyril and Methodius University · 2005–2009 · GPA 9.77/10</small></li>
+            </ul>
+          </div>
+          <div class="block">
+            <h3>Talks &amp; community</h3>
+            <ul>
+              <li>JavaScript, CodeApp LevelUp<small>2018</small></li>
+              <li>JavaScript in front-end development<small>BEST summer seminar · 2018</small></li>
+              <li>ICT-ACT · Data Science Macedonia<small>member</small></li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <div class="block">
+            <h3>Courses taught</h3>
+            <ul>
+              <li>Internet Programming<small>JavaScript, Java</small></li>
+              <li>Web Design · Visualization<small>front-end, data visualization</small></li>
+              <li>Human–Computer Interaction · Interactive Applications</li>
+              <li>Object-Oriented and Structured Programming<small>Java, C++, C</small></li>
+            </ul>
+          </div>
+          <div class="block">
+            <h3>Certification</h3>
+            <ul>
+              <li>Deep Learning Specialization<small>neural networks · CNNs · sequence models · ML projects</small></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap sec">
+      <div class="sec-label">Contact</div>
+      <div>
+        <h2>Get in touch</h2>
+        <p class="prose">For research collaborations, student supervision, or consulting on data and AI systems.</p>
+        <ul class="emails">
+          <li class="contact-row">
+            <span class="email-label">Faculty</span>
+            <a class="email" href="mailto:ivan.kitanovski@finki.ukim.mk">ivan.kitanovski@finki.ukim.mk</a>
+            <button class="btn copy" type="button">Copy</button>
+            <span class="copy-note" aria-live="polite"></span>
+          </li>
+          <li class="contact-row">
+            <span class="email-label">Personal</span>
+            <a class="email" href="mailto:ivan.kitanovski@gmail.com">ivan.kitanovski@gmail.com</a>
+            <button class="btn copy" type="button">Copy</button>
+            <span class="copy-note" aria-live="polite"></span>
+          </li>
+        </ul>
+        <div class="links" style="margin-top:18px">
+          <a class="btn" href="https://scholar.google.com/citations?user=hP-LYf4AAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>
+          <a class="btn" href="https://www.linkedin.com/in/ivan-kitanovski/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn" href="https://github.com/ivankitanovski" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="https://finki.ukim.mk/en/kadar/d-r-ivan-kitanovski/" target="_blank" rel="noopener">FCSE profile</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="year">2026</span> Ivan Kitanovski · Skopje, North Macedonia</span>
+    <span>Hero tile: synthetic land-cover scene, 64 × 64 px</span>
+  </div>
+</footer>
+
+<script>
+(function () {
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Synthetic land-cover classification tile: value noise -> classes.
+  const cv = document.getElementById('lc');
+  const ctx = cv.getContext('2d');
+  const N = 64;
+  let seed = 41;
+  const rnd = () => { seed = (seed * 16807) % 2147483647; return (seed - 1) / 2147483646; };
+  function grid(n) { const g = []; for (let i = 0; i <= n; i++) { g.push([]); for (let j = 0; j <= n; j++) g[i].push(rnd()); } return g; }
+  const g1 = grid(5), g2 = grid(11), g3 = grid(4);
+  const s = t => t * t * (3 - 2 * t);
+  function sample(g, n, x, y) {
+    const fx = x / N * n, fy = y / N * n, i = Math.floor(fx), j = Math.floor(fy), u = s(fx - i), v = s(fy - j);
+    const a = g[i][j], b = g[i + 1][j], c = g[i][j + 1], d = g[i + 1][j + 1];
+    return a + (b - a) * u + (c - a) * v + (a - b - c + d) * u * v;
+  }
+  const cls = [];
+  for (let y = 0; y < N; y++) for (let x = 0; x < N; x++) {
+    const h = sample(g1, 5, x, y) * 0.65 + sample(g2, 11, x, y) * 0.35;
+    const m = sample(g3, 4, x, y);
+    const river = Math.abs(y - (36 + 10 * Math.sin(x / 9))) < 1.6 + (x > 40 ? 0.6 : 0);
+    const dx = x - 24.5, dy = y - 26.5, core = Math.sqrt(dx * dx + dy * dy) < 7 + 3 * sample(g2, 11, x, y);
+    let c;
+    if (river || h < 0.2) c = 'water';
+    else if (core) c = 'urban';
+    else if (h > 0.66) c = 'forest';
+    else if (h > 0.56) c = 'grass';
+    else if (m > 0.55) c = 'crop';
+    else if (h < 0.3) c = 'bare';
+    else c = (Math.floor(x / 6) + Math.floor(y / 5)) % 3 === 0 ? 'grass' : 'crop';
+    cls.push(c);
+  }
+  function draw() {
+    const css = getComputedStyle(document.documentElement);
+    const hex = h => [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16));
+    const rgb = {};
+    ['water', 'forest', 'grass', 'crop', 'urban', 'bare'].forEach(k => rgb[k] = hex(css.getPropertyValue('--lc-' + k).trim()));
+    const img = ctx.createImageData(N, N);
+    for (let p = 0; p < N * N; p++) {
+      const c = rgb[cls[p]];
+      img.data[p * 4] = c[0]; img.data[p * 4 + 1] = c[1]; img.data[p * 4 + 2] = c[2]; img.data[p * 4 + 3] = 255;
+    }
+    ctx.putImageData(img, 0, 0);
+  }
+  draw();
+  try {
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', draw);
+    new MutationObserver(draw).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+  } catch (e) {}
+
+  // Theme toggle
+  const root = document.documentElement;
+  document.querySelector('.theme-toggle').addEventListener('click', function () {
+    const current = root.getAttribute('data-theme') ||
+      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    const next = current === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('theme', next); } catch (e) {}
+  });
+
+  // Copy email
+  document.querySelectorAll('.emails .contact-row').forEach(function (row) {
+    const btn = row.querySelector('.copy'), note = row.querySelector('.copy-note'), email = row.querySelector('.email');
+    btn.addEventListener('click', function () {
+      const text = email.textContent.trim();
+      const fallback = () => {
+        const r = document.createRange(); r.selectNodeContents(email);
+        const sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(r);
+        note.textContent = 'Selected. Press Ctrl/Cmd+C to copy.';
+      };
+      document.querySelectorAll('.copy-note').forEach(n => { n.textContent = ''; });
+      try {
+        navigator.clipboard.writeText(text).then(() => { note.textContent = 'Copied'; }, fallback);
+      } catch (e) { fallback(); }
+    });
+  });
+})();
+</script>
 </body>
 </html>
